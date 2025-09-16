@@ -2,10 +2,10 @@ body {
   background-color: #ffffff;
 }
 
-.cursor {
-  background-color: white;
-  position : fixed;
-  bottom : 10;
-  right : 10;
+.follower {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  border-radius: 100;
+  border-color: #000000;
+  border-width: 3px;
 }
-
