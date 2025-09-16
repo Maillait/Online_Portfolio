@@ -1,4 +1,4 @@
-import {follow()} from "Follower.js";
+import {follow, customize} from "Follower.js";
 
 export let mouseX = 0;
 export let mouseY = 0;
@@ -19,4 +19,5 @@ document.addEventListener("mousemove", (event) => {
   mouseX = event.clientX;
 
 });
+
 
