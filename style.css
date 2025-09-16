@@ -3,9 +3,9 @@ body {
 }
 
 .cursor {
-  /*border : 10px solid;*/
-  background-color: black;
+  background-color: white;
   position : fixed;
   bottom : 10;
   right : 10;
 }
+
