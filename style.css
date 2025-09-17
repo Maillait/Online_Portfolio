@@ -6,12 +6,22 @@ header {
   background-color: #919191;
   width : 80%;
   float : center;
+  justify-content: center;
+  align-items: center;
+  padding : 2px;
+  margin-left: auto;
+  margin-right : auto;
 }
 
 .section {
   background-color: #666666;
   width : 70%;
   float : center;
+  justify-content: center;
+  align-items: center;
+  padding : 2px;
+  margin-left: auto;
+  margin-right : auto;
 }
 
 #follower {
@@ -26,6 +36,7 @@ header {
   bottom : 0;
   right : 0;
 }
+
 
 
 
