@@ -3,13 +3,14 @@ body {
 }
 
 .follower {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(150, 150, 150);
   position: fixed;
   border-radius: 50;
-  border-color: #000000;
+  border-color: rgb(150, 150, 150);
   border-width: 50px;
   bottom : 0;
   right : 0;
 }
+
 
 
