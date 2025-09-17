@@ -2,11 +2,23 @@ body {
   background-color: #ffffff;
 }
 
+header {
+  background-color: #919191;
+  width : 80%;
+  float : center;
+}
+
+.section {
+  background-color: #666666;
+  width : 70%;
+  float : center;
+}
+
 #follower {
-  background-color: rgb(150, 150, 150);
+  background-color: #732c00;
   position: fixed;
   border-radius: 100%;
-  border: 4px solid rgb(150, 150, 150);
+  border: 4px solid #381500;
   justify-content: center;
   align-items: center;
   width : 100px;
@@ -14,6 +26,7 @@ body {
   bottom : 0;
   right : 0;
 }
+
 
 
 
