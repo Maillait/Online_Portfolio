@@ -8,9 +8,12 @@ body {
   border-radius: 50;
   border-color: rgb(150, 150, 150);
   border-width: 50px;
+  width : 100px;
+  height : 100px;
   bottom : 0;
   right : 0;
 }
+
 
 
 
