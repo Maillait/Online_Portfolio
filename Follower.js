@@ -9,10 +9,12 @@ export function follow(followerX, followerY) {
   document.getElementById("follower").style.right =
     window.innerWidth - followerX - 100 + "px";
 
+  console.log(followerX, followerY);
   return { followerX, followerY };
 }
 
 export function customize(image) {
   
 }
+
 
