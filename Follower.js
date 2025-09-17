@@ -1,7 +1,7 @@
 import { mouseX, mouseY, fSpeed, followerX, followerY } from "./main.js";
 
-export let setFollowX;
-export let setFollowY;
+export let setFollowX = 0;
+export let setFollowY = 0;
 
 export function follow() {
   setFollowX += (mouseX - followerX) / fSpeed;
@@ -19,6 +19,7 @@ export function follow() {
 export function customize(image) {
   
 }
+
 
 
 
