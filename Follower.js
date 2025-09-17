@@ -1,4 +1,4 @@
-import { mouseX, mouseY, fSpeed } from "main.js";
+import { mouseX, mouseY, fSpeed } from "./main.js";
 
 export function follow(followerX, followerY) {
   followerX += (mouseX - followerX) / fSpeed;
@@ -15,3 +15,4 @@ export function follow(followerX, followerY) {
 export function customize(image) {
   
 }
+
