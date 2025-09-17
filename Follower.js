@@ -8,9 +8,9 @@ export function follow() {
   setFollowY += (mouseY - followerY) / fSpeed;
 
   document.getElementById("follower").style.bottom =
-    window.innerHeight - setFollowY - 50 + "px";
+    window.innerHeight - setFollowY + "px";
   document.getElementById("follower").style.right =
-    window.innerWidth - setFollowX - 50 + "px";
+    window.innerWidth - setFollowX + "px";
 
   console.log(setFollowX, setFollowY);
   return;
@@ -19,6 +19,7 @@ export function follow() {
 export function customize(image) {
   
 }
+
 
 
 
