@@ -1,4 +1,4 @@
-import {follow, customize} from "./Follower.js";
+import {follow, customize, setFollowY, setFollowX} from "./Follower.js";
 
 export let mouseX = 0;
 export let mouseY = 0;
@@ -6,21 +6,19 @@ export let fSpeed = 20;
 export let followerX = 0;
 export let followerY = 0;
 
-let playerPos = {
-  x : 0,
-  y : 0
-}
 let interval = setInterval(mainTick(),50);
 
 function mainTick() {
-playerPos = follow(playerPos.x, playerPos.y);
+  follow();
+  followerX = setFollowX;
+  followerY = setFollowY;
 }
 
 document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
-
 });
+
 
 
 
