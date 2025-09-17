@@ -3,6 +3,8 @@ import {follow, customize} from "./Follower.js";
 export let mouseX = 0;
 export let mouseY = 0;
 export let fSpeed = 20;
+export let followerX = 0;
+export let followerY = 0;
 
 let playerPos = {
   x : 0,
@@ -19,6 +21,7 @@ document.addEventListener("mousemove", (event) => {
   mouseX = event.clientX;
 
 });
+
 
 
 
