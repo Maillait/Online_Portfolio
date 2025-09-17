@@ -2,16 +2,17 @@ body {
   background-color: #ffffff;
 }
 
-.follower {
+#follower {
   background-color: rgb(150, 150, 150);
   position: fixed;
-  border-radius: 4;
+  border-radius: 100%;
   border: 4px solid rgb(150, 150, 150);
   width : 100px;
   height : 100px;
   bottom : 0;
   right : 0;
 }
+
 
 
 
