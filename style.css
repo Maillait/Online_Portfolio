@@ -7,7 +7,6 @@
 }
 
 .codePic {
-  width = 400px;
 }
 
 .picHolder {
@@ -22,11 +21,11 @@ body {
 
 header {
   background-color: #919191;
-  width : 80%;
-  float : center;
+  position: absolute;
+  width : 100%;
   justify-content: center;
   align-items: center;
-  padding : 2px;
+  padding : 0px;
 }
 
 .section {
@@ -51,6 +50,7 @@ header {
   right : 0;
   padding : 0px;
 }
+
 
 
 
