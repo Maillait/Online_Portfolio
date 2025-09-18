@@ -33,6 +33,7 @@ function startMove() {
 }
 
 function endMove() {
+  window.scrollTo(0, 0);
   document.body.style.backgroundColor = "white";
   document.getElementById("page").style.visibility = "visible";
   document.getElementById("buttons").style.visibility = "hidden";
@@ -44,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
