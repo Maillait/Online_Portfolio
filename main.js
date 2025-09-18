@@ -17,7 +17,8 @@ if (matchMedia('(pointer:fine)').matches) {
       endMove();
     }
   });
-  document.getElementById("toggler").style.visibility = "visible";
+} else {
+  document.getElementById("toggler").style.visibility = "hidden";
 }
 
 function startMove() {
@@ -45,6 +46,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
