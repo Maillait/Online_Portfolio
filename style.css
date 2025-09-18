@@ -9,9 +9,10 @@
 
 #buttons {
   position : fixed;
-  bottom : 0px;
-  right : 0px;
+  top : 0px;
+  left : 0px;
   padding : 0px;
+  margin : 0px;
 }
 
 #styleButton {
@@ -91,6 +92,7 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
+
 
 
 
