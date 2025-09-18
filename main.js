@@ -1,4 +1,4 @@
-pressimport {follow, customize, setFollowY, setFollowX} from "./Follower.js";
+import {follow, customize, setFollowY, setFollowX} from "./Follower.js";
 
 export let mouseX = 0;
 export let mouseY = 0;
@@ -45,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
