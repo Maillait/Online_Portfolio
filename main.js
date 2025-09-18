@@ -45,7 +45,8 @@ document.addEventListener("mousemove", (event) => {
   mouseX = event.clientX;
 });
 
-document.getElementById("mousedown").addEventListener("click", toggleInterval());
+document.addEventListener("mousedown", toggleInterval());
+
 
 
 
