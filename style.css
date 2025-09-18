@@ -13,7 +13,7 @@
 button {
   margin : 0;
   visibility : hidden;
-  position : fixed; 
+  position : absolute; 
   top : 2; 
   left: 2;
   background-color : #8fb6c4;
@@ -63,6 +63,7 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
+
 
 
 
