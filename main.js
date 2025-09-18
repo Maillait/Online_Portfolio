@@ -11,7 +11,7 @@ let interToggle = 0;
 if (matchMedia('(pointer:fine)').matches) {
   document.getElementById("toggle").style.visibility = "visible";
   document.addEventListener("keypress", (event) => {
-    if (event.key == "\n") {
+    if (event.key == " ") {
   interToggle = !interToggle;
   if (interToggle) {
     startMove();
@@ -45,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
