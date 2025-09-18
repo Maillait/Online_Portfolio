@@ -7,7 +7,8 @@
   text-align: center;
 }
 
-.codePic {
+#toggler {
+  visibility : hidden;
 }
 
 button {
@@ -63,6 +64,7 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
+
 
 
 
