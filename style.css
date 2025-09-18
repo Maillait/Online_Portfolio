@@ -15,7 +15,8 @@ button {
   visibility : hidden;
   position : fixed; 
   top : 2; 
-  left: 100%;
+  left: 90%;
+  width = 8%;
   background-color : #8fb6c4;
 }
 
@@ -63,6 +64,7 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
+
 
 
 
