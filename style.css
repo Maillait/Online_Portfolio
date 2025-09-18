@@ -22,20 +22,20 @@
 }
 
 #picButton {
-  right : 200px;
+  left : 80vw;
   top : 0;
   position : absolute;
 }
 
 #aboutButton {
   left : 0;
-  bottom : 200px;
+  top : 80vh;
   position : absolute;
 }
 
 #exampleButton {
-  right : 200px;
-  bottom : 200px;
+  left : 80vw;
+  top : 80vh;
   position : absolute;
 }
 
@@ -92,6 +92,7 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
+
 
 
 
