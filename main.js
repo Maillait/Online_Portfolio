@@ -14,6 +14,7 @@ if (matchMedia('(pointer:fine)').matches) {
 }
 
 function toggleInterval() {
+  alert("functional");
   interToggle = !interToggle;
   if (interToggle) {
     startMove();
@@ -44,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
