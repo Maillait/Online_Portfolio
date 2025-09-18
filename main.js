@@ -17,7 +17,7 @@ if (matchMedia('(pointer:fine)').matches) {
       endMove();
     }
   });
-  alert("press any key on your keyboard to explore\n this page in a different way.");
+  document.getElementById("toggler").style.visibility = "visible";
 }
 
 function startMove() {
@@ -45,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
