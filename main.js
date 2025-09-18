@@ -23,6 +23,7 @@ function toggleInterval() {
 }
 
 function startMove() {
+document.getElementById("page").style.visibility = "hidden";
 document.getElementById("buttons").style.visibility = "visible";
 document.getElementById("follower").style.visibility = "visible";
 interval = setInterval(function mainTick() {
@@ -33,6 +34,7 @@ interval = setInterval(function mainTick() {
 }
 
 function endMove() {
+  document.getElementById("page").style.visibility = "visible";
 document.getElementById("buttons").style.visibility = "hidden";
 document.getElementById("follower").style.visibility = "hidden";
 clearInterval(interval);
@@ -42,6 +44,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
