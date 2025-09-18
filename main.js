@@ -9,7 +9,6 @@ let interval;
 let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
-  alert("click with your mouse to explore\n this page in a different way.");
   document.getElementById("toggle").style.display = "visible";
   document.getElementById("toggle").addEventListener("mousedown", (event) => {
   interToggle = !interToggle;
@@ -19,6 +18,7 @@ if (matchMedia('(pointer:fine)').matches) {
     endMove();
   }
 });
+  alert("click <toggle> with your mouse to explore\n this page in a different way.");
 }
 
 function startMove() {
@@ -43,4 +43,5 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
