@@ -14,8 +14,9 @@ button {
   margin : 0;
   visibility : hidden;
   position : fixed; 
-  top : 0; 
-  left: 0;
+  top : 2; 
+  right: 2;
+  background-color : #8fb6c4;
 }
 
 .picHolder {
@@ -62,6 +63,7 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
+
 
 
 
