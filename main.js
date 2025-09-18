@@ -10,6 +10,14 @@ let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
   alert("click with your mouse to explore\n this page in a different way.");
+  document.addEventListener("mousedown", (event) => {
+  interToggle = !interToggle;
+  if (interToggle) {
+    startMove();
+  } else {
+    endMove();
+  }
+});
 }
 
 function startMove() {
@@ -34,26 +42,3 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
-
-document.addEventListener("mousedown", (event) => {
-  interToggle = !interToggle;
-  if (interToggle) {
-    startMove();
-  } else {
-    endMove();
-  }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
