@@ -1,4 +1,4 @@
-import {follow, customize, setFollowY, setFollowX} from "./Follower.js";
+pressimport {follow, customize, setFollowY, setFollowX} from "./Follower.js";
 
 export let mouseX = 0;
 export let mouseY = 0;
@@ -10,6 +10,7 @@ let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
   alert("left click your mouse to explore\n this page in a different way.");
+  document.addEventListener("keypress", toggleInterval());
 }
 
 function toggleInterval() {
@@ -45,7 +46,6 @@ document.addEventListener("mousemove", (event) => {
   mouseX = event.clientX;
 });
 
-document.addEventListener("mousedown", toggleInterval());
 
 
 
