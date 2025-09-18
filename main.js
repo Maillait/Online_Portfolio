@@ -9,7 +9,6 @@ let interval;
 let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
-  document.getElementById("toggle").style.visibility = "visible";
   document.addEventListener("keypress", (event) => {
     interToggle = !interToggle;
     if (interToggle) {
@@ -18,7 +17,7 @@ if (matchMedia('(pointer:fine)').matches) {
       endMove();
     }
   });
-  alert("click <toggle> with your mouse to explore\n this page in a different way.");
+  alert("press any key on your keyboard to explore\n this page in a different way.");
 }
 
 function startMove() {
@@ -43,6 +42,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
