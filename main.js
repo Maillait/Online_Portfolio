@@ -21,7 +21,7 @@ if (matchMedia('(pointer:fine)').matches) {
 }
 
 function startMove() {
-  document.body.style.backgroundColor = #748f2b;
+  document.body.style.backgroundColor = "#748f2b";
   document.getElementById("page").style.visibility = "hidden";
   document.getElementById("buttons").style.visibility = "visible";
   document.getElementById("follower").style.visibility = "visible";
@@ -44,6 +44,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
