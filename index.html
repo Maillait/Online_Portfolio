@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <button id = "changeButton" class = "button" onClick = "toggleInterval()">Toggle</button>
+    <button style = "visibility : hidden; position : sticky; top : 0; left: 0;" id = "changeButton" class = "button" onclick = "toggleInterval()">Toggle</button>
     <div id = "page">
       <header>
         <h1 style = "font-size:calc(5px + 5vw)">Online Portfolio</h1>
@@ -42,10 +42,11 @@
         </div>
       </div>
     </div>
-    <div id = "buttons">
+    <div style = "visibility : hidden" id = "buttons">
     </div>
-    <div id = "follower"><div>
+    <div style = "visibility : hidden" id = "follower"><div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
+
 
