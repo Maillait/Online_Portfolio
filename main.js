@@ -9,8 +9,8 @@ let interval;
 let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
-  alert("Click the <Toggle> button to explore\n this page in a different way.");
   document.getElementById("changeButton").style.visibility = "visible";
+  alert("Click the <Toggle> button to explore\n this page in a different way.");
 }
 
 function toggleInterval() {
@@ -45,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
