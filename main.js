@@ -21,27 +21,30 @@ if (matchMedia('(pointer:fine)').matches) {
 }
 
 function startMove() {
-document.getElementById("page").style.visibility = "hidden";
-document.getElementById("buttons").style.visibility = "visible";
-document.getElementById("follower").style.visibility = "visible";
-interval = setInterval(function mainTick() {
+  document.body.style.backgroundColor = #748f2b;
+  document.getElementById("page").style.visibility = "hidden";
+  document.getElementById("buttons").style.visibility = "visible";
+  document.getElementById("follower").style.visibility = "visible";
+  interval = setInterval(function mainTick() {
   follow();
   followerX = setFollowX;
   followerY = setFollowY;
-}, 50);
+  }, 50);
 }
 
 function endMove() {
+  document.body.style.backgroundColor = "white";
   document.getElementById("page").style.visibility = "visible";
-document.getElementById("buttons").style.visibility = "hidden";
-document.getElementById("follower").style.visibility = "hidden";
-clearInterval(interval);
+  document.getElementById("buttons").style.visibility = "hidden";
+  document.getElementById("follower").style.visibility = "hidden";
+  clearInterval(interval);
 }
 
 document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
