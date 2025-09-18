@@ -10,7 +10,7 @@ let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
   document.getElementById("toggle").style.visibility = "visible";
-  document.getElementById("keypress").addEventListener("mousedown", (event) => {
+  document.addEventListener("keypress", (event) => {
     if (event.key == "\n") {
   interToggle = !interToggle;
   if (interToggle) {
@@ -45,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
