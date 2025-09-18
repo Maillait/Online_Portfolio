@@ -9,7 +9,7 @@ let interval;
 let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
-  document.getElementById("toggle").style.display = "visible";
+  document.getElementById("toggle").style.visibility = "visible";
   document.getElementById("toggle").addEventListener("mousedown", (event) => {
   interToggle = !interToggle;
   if (interToggle) {
@@ -43,5 +43,6 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
