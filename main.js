@@ -10,17 +10,6 @@ let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
   alert("left click your mouse to explore\n this page in a different way.");
-  document.addEventListener("keypress", toggleInterval());
-}
-
-function toggleInterval() {
-  alert("functional");
-  interToggle = !interToggle;
-  if (interToggle) {
-    startMove();
-  } else {
-    endMove();
-  }
 }
 
 function startMove() {
@@ -46,6 +35,15 @@ document.addEventListener("mousemove", (event) => {
   mouseX = event.clientX;
 });
 
+document.addEventListener("keypress", (event) => {
+  alert("functional");
+  interToggle = !interToggle;
+  if (interToggle) {
+    startMove();
+  } else {
+    endMove();
+  }
+});
 
 
 
