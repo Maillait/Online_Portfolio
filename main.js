@@ -10,12 +10,14 @@ let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
   document.getElementById("toggle").style.visibility = "visible";
-  document.getElementById("toggle").addEventListener("mousedown", (event) => {
+  document.getElementById("kaypress").addEventListener("mousedown", (event) => {
+    if (event.key == "\n") {
   interToggle = !interToggle;
   if (interToggle) {
     startMove();
   } else {
     endMove();
+  }
   }
 });
   alert("click <toggle> with your mouse to explore\n this page in a different way.");
@@ -43,6 +45,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
