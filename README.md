@@ -9,3 +9,8 @@ Move project from local file system to github, make modular and improve graphics
 ------
 Completed main page, and created a firm base for the 'experimental' part of this website.
 On the mobile side, everything is completed.
+
+------
+2025/9/18
+------
+Made some sprites for alternate viewing, and implemented them.
