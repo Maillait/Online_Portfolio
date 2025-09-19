@@ -82,6 +82,17 @@ h1, h2 {
 }
 
 #follower {
+  width : 78px;
+  height : 123px;
+  margin : 0;
+  position: fixed;
+  padding : 0;
+  /*--testing with border--*/
+  border : 2px solid black;
+}
+
+/* 
+#follower {
   background-color: #732c00;
   position: fixed;
   border-radius: 100%;
@@ -94,42 +105,4 @@ h1, h2 {
   right : 0;
   padding : 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
