@@ -14,9 +14,6 @@ img {
 #popup {
   margin : auto;
   padding : auto;
-  width : 70%;
-  height : 70%;
-  overflow : hidden;
   background-color : rgba(100, 100, 100, .5);
   z-index : 2;
 }
@@ -111,6 +108,7 @@ h1, h2 {
   padding : 0;
   overflow : hidden;
 }
+
 
 
 
