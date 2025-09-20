@@ -2,6 +2,7 @@ import { mouseX, mouseY, fSpeed, followerX, followerY } from "./main.js";
 
 export let setFollowX = 0;
 export let setFollowY = 0;
+let custom = 0;
 
 export function follow() {
   setFollowX += (mouseX - followerX) / fSpeed;
@@ -15,7 +16,12 @@ export function follow() {
   return;
 }
 
-export function customize() {}
+export function customize() {
+  custom++;
+  if (custom > 2) custom = 0;
+  document.getElementById("charSprite").style.top = calc(-1 * custom * 123) + "px";
+}
+
 
 
 
