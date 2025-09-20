@@ -81,7 +81,7 @@ h1, h2 {
   padding : 2px;
 }
 
-#follower {
+#charSprite {
   margin : 0;
   left : 0;
   top : 0;
@@ -98,3 +98,4 @@ h1, h2 {
   /*--testing with border--*/
   border : 2px solid black;
 }
+
