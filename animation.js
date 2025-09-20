@@ -7,11 +7,11 @@ export function animateFollower() {
   distanceSum += Math.sqrt((((mouseX - followerX) / fSpeed) * ((mouseX - followerX) / fSpeed)) + (((mouseY - followerY) / fSpeed) * ((mouseY - followerY) / fSpeed)));
   
   // if distance moved is less than 5 pixels
-  if (Math.sqrt((((mouseX - followerX) / fSpeed) * ((mouseX - followerX) / fSpeed)) + (((mouseY - followerY) / fSpeed) * ((mouseY - followerY) / fSpeed))) < 5) {
+  if (Math.sqrt((((mouseX - followerX) / fSpeed) * ((mouseX - followerX) / fSpeed)) + (((mouseY - followerY) / fSpeed) * ((mouseY - followerY) / fSpeed))) < 2) {
     document.getElementById("charSprite").style.left = "0px";
   } else {
     
-    if (distanceSum > 5) {
+    if (distanceSum > 40) {
       walkToggle = !walkToggle;
       distanceSum = 0;
     }
