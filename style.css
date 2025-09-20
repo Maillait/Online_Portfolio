@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+#popup {
+  margin : auto;
+  padding : auto;
+  width : 70%;
+  height : 70%;
+  overflow : hidden;
+}
+
 #buttons {
   position : fixed;
   top : 5vh;
@@ -97,5 +105,6 @@ h1, h2 {
   padding : 0;
   overflow : hidden;
 }
+
 
 
