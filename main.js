@@ -47,13 +47,21 @@ function endMove() {
   clearInterval(interval);
 }
 
+document.getElementById("buttons").addEventListener("click", (event) => {
+  console.log("1");
+  document.getElementById("popup").innerText = "";
+});
+
 document.getElementById("styleButton").addEventListener("click", (event) => {
   customize();
 });
 
 document.getElementById("picButton").addEventListener("click", (event) => {
+  if (confirm("To view images, you will have to go to the main page. Are you sure you want to do this?")) {
+  interToggle = !interToggle;
   endMove();
-  window.scrollTo(0, 1000);
+  window.scrollTo(0, 500);
+  }
 });
 
 document.getElementById("aboutButton").addEventListener("click", (event) => {
@@ -66,14 +74,10 @@ document.getElementById("exampleButton").addEventListener("click", (event) => {
   document.getElementById("popup").innerText = "Here's the URL to my now abandoned scratch account: 'https://scratch.mit.edu/users/Maillait/' Quick disclamer: I have learnt a decent amount about making code look nice and readable since I stopped work on my other 2 repositories. But feel free to look at them.";
 });
 
-document.getElementById("buttons").addEventListener("click", (event) => {
-  console.log("1");
-  document.getElementById("popup").innerText = "";
-});
-
 document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
