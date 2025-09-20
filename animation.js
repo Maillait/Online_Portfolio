@@ -16,8 +16,8 @@ export function animateFollower() {
       frame = 0;
     }
     
-    if (walkToggle) document.getElementById("charSprite").style.left = "79px";
-    else document.getElementById("charSprite").style.left = "157px";
+    if (walkToggle) document.getElementById("charSprite").style.left = "-79px";
+    else document.getElementById("charSprite").style.left = "-157px";
     
   }
   
