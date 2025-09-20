@@ -19,3 +19,8 @@ Made some sprites for alternate viewing, and implemented them.
 2025/9/19
 ------
 Started to implement the follower animation.
+
+------
+2025/9/20
+------
+Completed animation, and alternate funtionality. As well as fixing a mobile bug.
