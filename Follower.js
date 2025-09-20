@@ -19,9 +19,9 @@ export function follow() {
 export function customize() {
   custom++;
   if (custom > 2) custom = 0;
-  alert(custom);
-  document.getElementById("charSprite").style.top = calc(-1 * custom * 123) + "px";
+  document.getElementById("charSprite").style.top = (-1 * custom * 123) + "px";
 }
+
 
 
 
