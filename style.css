@@ -95,7 +95,7 @@ h1, h2 {
   margin : 0;
   position: fixed;
   padding : 0;
-  /*--testing with border--*/
-  border : 2px solid black;
+  overflow : hidden;
 }
+
 
