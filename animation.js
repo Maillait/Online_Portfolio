@@ -8,10 +8,10 @@ export function animateFollower() {
   console.log(1);
   
   // if distance moved is less than 5 pixels
-  if (Math.sqrt((((mouseX - followerX) / fSpeed) * ((mouseX - followerX) / fSpeed)) + (((mouseY - followerY) / fSpeed) * ((mouseY - followerY) / fSpeed))) < 5)
+  if (Math.sqrt((((mouseX - followerX) / fSpeed) * ((mouseX - followerX) / fSpeed)) + (((mouseY - followerY) / fSpeed) * ((mouseY - followerY) / fSpeed))) < 5) {
     document.getElementById("charSprite").style.left = 0;
     console.log(frame);
-  else {
+  } else {
     
     if (frame > 5) {
       walkToggle = !walkToggle;
