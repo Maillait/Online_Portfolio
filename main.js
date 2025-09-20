@@ -24,6 +24,7 @@ if (matchMedia('(pointer:fine)').matches) {
   });
   
 } else {
+  document.getElementById("toggler").innerHTML = "";
   document.getElementById("toggler").style.visibility = "hidden";
 }
 
@@ -73,6 +74,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
