@@ -46,22 +46,17 @@ function endMove() {
   clearInterval(interval);
 }
 
+document.getElementById("styleButton").addEventListener("click", (event) => {
+  customize();
+});
+
+document.getElementById("picButton").addEventListener("click", (event) => {});
+
+document.getElementById("aboutButton").addEventListener("click", (event) => {});
+
+document.getElementById("exampleButton").addEventListener("click", (event) => {});
+
 document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
