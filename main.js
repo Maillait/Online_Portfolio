@@ -1,4 +1,5 @@
-import {follow, customize, setFollowY, setFollowX} from "./Follower.js";
+import { follow, customize, setFollowY, setFollowX } from "./Follower.js";
+import { animateFollower } from "./animation.js";
 
 export let mouseX = 0;
 export let mouseY = 0;
@@ -9,6 +10,7 @@ let interval;
 let interToggle = 0;
 
 if (matchMedia('(pointer:fine)').matches) {
+  
   document.addEventListener("keypress", (event) => {
     interToggle = !interToggle;
     if (interToggle) {
@@ -17,6 +19,7 @@ if (matchMedia('(pointer:fine)').matches) {
       endMove();
     }
   });
+  
 } else {
   document.getElementById("toggler").style.visibility = "hidden";
 }
@@ -27,6 +30,7 @@ function startMove() {
   document.getElementById("buttons").style.visibility = "visible";
   document.getElementById("follower").style.visibility = "visible";
   interval = setInterval(function mainTick() {
+  animateFollower();
   follow();
   followerX = setFollowX;
   followerY = setFollowY;
@@ -46,6 +50,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
