@@ -14,3 +14,8 @@ On the mobile side, everything is completed.
 2025/9/18
 ------
 Made some sprites for alternate viewing, and implemented them.
+
+------
+2025/9/19
+------
+Started to implement the follower animation.
