@@ -42,18 +42,12 @@ function startMove() {
 
 function endMove() {
   window.scrollTo(0, 0);
-  document.getElementById("popup").innerText = "";
   document.body.style.backgroundColor = "white";
   document.getElementById("page").style.visibility = "visible";
   document.getElementById("buttons").style.visibility = "hidden";
   document.getElementById("follower").style.visibility = "hidden";
   clearInterval(interval);
 }
-
-document.getElementById("buttons").addEventListener("click", (event) => {
-  if (!lastClicked) document.getElementById("popup").innerText = "";
-  else lastClicked = 0;
-});
 
 document.getElementById("styleButton").addEventListener("click", (event) => {
   customize();
@@ -68,19 +62,18 @@ document.getElementById("picButton").addEventListener("click", (event) => {
 });
 
 document.getElementById("aboutButton").addEventListener("click", (event) => {
-  lastClicked = 1;
-  document.getElementById("popup").innerText = "Hello, I first began programming in grade 5, with scratch. I stayed on using scratch, with small jaunts into typescript and CPP(for an arduino) until grade 10, when I began to learn CPP and Ti-basic more formally. Since then Ive also learnt HTML, CSS, and JS, as demonstrated in this portfolio.";
+ alert("Hello, I first began programming in grade 5, with scratch. I stayed on using scratch, with small jaunts into typescript and CPP(for an arduino) until grade 10, when I began to learn CPP and Ti-basic more formally. Since then Ive also learnt HTML, CSS, and JS, as demonstrated in this portfolio.");
 });
 
 document.getElementById("exampleButton").addEventListener("click", (event) => {
-  lastClicked = 1;
-  document.getElementById("popup").innerText = "Here's the URL to my now abandoned scratch account: 'https://scratch.mit.edu/users/Maillait/' Quick disclamer: I have learnt a decent amount about making code look nice and readable since I stopped work on my other 2 repositories. But feel free to look at them.";
+  alert("Here's the URL to my now abandoned scratch account: 'https://scratch.mit.edu/users/Maillait/' Quick disclamer: I have learnt a decent amount about making code look nice and readable since I stopped work on my other 2 repositories. But feel free to look at them.");
 });
 
 document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
