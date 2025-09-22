@@ -98,8 +98,6 @@ h1, h2 {
   overflow : hidden;
 }
 
-
-
-
-
-
+#toggler {
+  visibility : hidden;
+}
