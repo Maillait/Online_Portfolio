@@ -22,10 +22,8 @@ if (matchMedia('(pointer:fine)').matches) {
       endMove();
     }
   });
-  
-} else {
-  document.getElementById("toggler").innerHTML = "";
-  document.getElementById("toggler").style.visibility = "hidden";
+  document.getElementById("toggler").innerHTML = "<h2>--Toggle--</h2><p>To toggle how you are viewing this page, press any key on the keyboard. When in the toggled mode, press things to explore.</p>";
+  document.getElementById("toggler").style.visibility = "inherit";
 }
 
 function startMove() {
@@ -74,6 +72,7 @@ document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
