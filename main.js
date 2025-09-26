@@ -61,17 +61,18 @@ document.getElementById("picButton").addEventListener("click", (event) => {
 });
 
 document.getElementById("aboutButton").addEventListener("click", (event) => {
- alert("Hello, I first began programming in grade 5, with scratch. I stayed on using scratch, with small jaunts into typescript and CPP(for an arduino) until grade 10, when I began to learn CPP and Ti-basic more formally. Since then Ive also learnt HTML, CSS, and JS, as demonstrated in this portfolio.");
+ alert("Hello, My name is William Ottenbreit, and I am a grade 11 student at Holy Trinity Academy. In grade 8 I became interrested in programming beause my older brother was studying computer science and I had already done a little bit of scratch in elementary school. The languages I have focused on are C++, HTML, JS, CSS, and ti-Basic, but have touched into TypeScript and scratch. I have used these languages to mess arund with an arduino, make small games, simulations, etc.. The reason that I enjoy coding is because I like solving problems and seeing something that I typed come to life. This portfolio has been designed to represent my current skills and to help me find a part time job or paid internship coding so that I can develop my skills.");
 });
 
 document.getElementById("exampleButton").addEventListener("click", (event) => {
-  alert("Here's the URL to my now abandoned scratch account: 'https://scratch.mit.edu/users/Maillait/' Quick disclamer: I have learnt a decent amount about making code look nice and readable since I stopped work on my other 2 repositories. But feel free to look at them.");
+  alert("Here is the link to my scratch account: 'https://scratch.mit.edu/users/Maillait/'\nHeres's a link to my github, which I'm still getting used to, but I'm currently working on an engine to build a platformer from, and have some simple CA's that I made on there as well: 'https://github.com/Maillait/'");
 });
 
 document.addEventListener("mousemove", (event) => {
   mouseY = event.clientY;
   mouseX = event.clientX;
 });
+
 
 
 
